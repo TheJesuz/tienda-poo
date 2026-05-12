@@ -1,9 +1,9 @@
-services:
+﻿services:
   - type: web
     name: tienda-poo
-    env: python
+    runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn --chdir ecommerce app:app -w 1 -b 0.0.0.0:$PORT
+    startCommand: gunicorn wsgi:app -w 1 -b 0.0.0.0:$PORT
     envVars:
       - key: ADMIN_PASS
         value: admin1234
