@@ -1,0 +1,12 @@
+﻿# Datos de la tienda (se generan en ejecucion)
+datos_tienda.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# OS
+.DS_Store
+Thumbs.db

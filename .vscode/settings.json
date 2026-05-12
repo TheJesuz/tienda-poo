@@ -1,0 +1,13 @@
+{
+  "python.defaultInterpreterPath": "python",
+  "python.analysis.extraPaths": ["./ecommerce"],
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  }
+}

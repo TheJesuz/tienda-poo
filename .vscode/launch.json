@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Servidor Flask (web)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/ecommerce/app.py",
+      "console": "integratedTerminal",
+      "env": {"FLASK_ENV": "development"}
+    },
+    {
+      "name": "Consola interactiva (terminal)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/ecommerce/main.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
